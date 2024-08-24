@@ -6,7 +6,6 @@ strip_prefix = "cmake-3.30.2-macos-universal/CMake.app/Contents/"
 includes = [
     "cmake-3.30.2-macos-universal/CMake.app/Contents/bin/**",
     "cmake-3.30.2-macos-universal/CMake.app/Contents/Plugins/**",
-    "cmake-3.30.2-macos-universal/CMake.app/Contents/share/**",
 ]
 link = "Hard"
 
@@ -18,7 +17,6 @@ strip_prefix = "cmake-3.30.2-macos-universal/CMake.app/Contents/"
 includes = [
     "cmake-3.30.2-macos-universal/CMake.app/Contents/bin/**",
     "cmake-3.30.2-macos-universal/CMake.app/Contents/Plugins/**",
-    "cmake-3.30.2-macos-universal/CMake.app/Contents/share/**",
 ]
 link = "Hard"
 
