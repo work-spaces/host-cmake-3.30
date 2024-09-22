@@ -2,7 +2,13 @@
 
 Add a version of cmake to your spaces SDK.
 
-```toml
-[deps]
-cmake = { git = "https://github.com/work-spaces/sysroot-cmake", branch = "v3" }
+```starlark
+checkout.add_repo(
+    rule = {"name": "tools/sysroot-cmake"},
+    repo = {
+        "url": "https://github.com/work-spaces/sysroot-cmake",
+        "rev": "v3",
+        "checkout": "Revision",
+    },
+)
 ```
